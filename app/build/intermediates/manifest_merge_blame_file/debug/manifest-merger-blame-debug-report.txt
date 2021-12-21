@@ -1,0 +1,107 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.iliptam.newproject"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Development\Project\Github\ads-network\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->D:\Development\Project\Github\ads-network\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+11-->D:\Development\Project\Github\ads-network\app\src\main\AndroidManifest.xml:5:5-76
+11-->D:\Development\Project\Github\ads-network\app\src\main\AndroidManifest.xml:5:22-73
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\Development\Project\Github\ads-network\app\src\main\AndroidManifest.xml:6:5-67
+12-->D:\Development\Project\Github\ads-network\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->D:\Development\Project\Github\ads-network\app\src\main\AndroidManifest.xml:7:5-79
+13-->D:\Development\Project\Github\ads-network\app\src\main\AndroidManifest.xml:7:22-76
+14
+15    <application
+15-->D:\Development\Project\Github\ads-network\app\src\main\AndroidManifest.xml:9:5-30:19
+16        android:allowBackup="true"
+16-->D:\Development\Project\Github\ads-network\app\src\main\AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.7.0] C:\Program Files\Java\jdk-12\bin\caches\transforms-3\376792b261fdcbfd86757f02ea12377d\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:hardwareAccelerated="false"
+19-->D:\Development\Project\Github\ads-network\app\src\main\AndroidManifest.xml:11:9-44
+20        android:icon="@mipmap/ic_launcher"
+20-->D:\Development\Project\Github\ads-network\app\src\main\AndroidManifest.xml:12:9-43
+21        android:label="@string/app_name"
+21-->D:\Development\Project\Github\ads-network\app\src\main\AndroidManifest.xml:13:9-41
+22        android:largeHeap="true"
+22-->D:\Development\Project\Github\ads-network\app\src\main\AndroidManifest.xml:14:9-33
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->D:\Development\Project\Github\ads-network\app\src\main\AndroidManifest.xml:15:9-54
+24        android:supportsRtl="true"
+24-->D:\Development\Project\Github\ads-network\app\src\main\AndroidManifest.xml:16:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.AppName" >
+26-->D:\Development\Project\Github\ads-network\app\src\main\AndroidManifest.xml:17:9-45
+27        <activity
+27-->D:\Development\Project\Github\ads-network\app\src\main\AndroidManifest.xml:18:9-20:40
+28            android:name="com.iliptam.newproject.MainActivity2"
+28-->D:\Development\Project\Github\ads-network\app\src\main\AndroidManifest.xml:19:13-42
+29            android:exported="false" />
+29-->D:\Development\Project\Github\ads-network\app\src\main\AndroidManifest.xml:20:13-37
+30        <activity
+30-->D:\Development\Project\Github\ads-network\app\src\main\AndroidManifest.xml:21:9-29:20
+31            android:name="com.iliptam.newproject.MainActivity"
+31-->D:\Development\Project\Github\ads-network\app\src\main\AndroidManifest.xml:22:13-41
+32            android:exported="true" >
+32-->D:\Development\Project\Github\ads-network\app\src\main\AndroidManifest.xml:23:13-36
+33            <intent-filter>
+33-->D:\Development\Project\Github\ads-network\app\src\main\AndroidManifest.xml:24:13-28:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->D:\Development\Project\Github\ads-network\app\src\main\AndroidManifest.xml:25:17-69
+34-->D:\Development\Project\Github\ads-network\app\src\main\AndroidManifest.xml:25:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->D:\Development\Project\Github\ads-network\app\src\main\AndroidManifest.xml:27:17-77
+36-->D:\Development\Project\Github\ads-network\app\src\main\AndroidManifest.xml:27:27-74
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->[:AdNetwork] D:\Development\Project\Github\ads-network\AdNetwork\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-19:74
+40            android:name="com.iliptam.adnetwork.InterstitialAd$InterstitialActivity"
+40-->[:AdNetwork] D:\Development\Project\Github\ads-network\AdNetwork\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-85
+41            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+41-->[:AdNetwork] D:\Development\Project\Github\ads-network\AdNetwork\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-71
+42
+43        <provider
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Program Files\Java\jdk-12\bin\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+44            android:name="androidx.startup.InitializationProvider"
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Program Files\Java\jdk-12\bin\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+45            android:authorities="com.iliptam.newproject.androidx-startup"
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Program Files\Java\jdk-12\bin\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+46            android:exported="false" >
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Program Files\Java\jdk-12\bin\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+47            <meta-data
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Program Files\Java\jdk-12\bin\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+48                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Program Files\Java\jdk-12\bin\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+49                android:value="androidx.startup" />
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Program Files\Java\jdk-12\bin\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+50            <meta-data
+50-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Program Files\Java\jdk-12\bin\caches\transforms-3\e3d5f7348f31abeaadb43deed4aab633\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+51                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+51-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Program Files\Java\jdk-12\bin\caches\transforms-3\e3d5f7348f31abeaadb43deed4aab633\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+52                android:value="androidx.startup" />
+52-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Program Files\Java\jdk-12\bin\caches\transforms-3\e3d5f7348f31abeaadb43deed4aab633\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+53        </provider>
+54
+55        <service
+55-->[androidx.room:room-runtime:2.2.5] C:\Program Files\Java\jdk-12\bin\caches\transforms-3\ae7ec84eac41d80167df28f5e3fc9ef3\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+56            android:name="androidx.room.MultiInstanceInvalidationService"
+56-->[androidx.room:room-runtime:2.2.5] C:\Program Files\Java\jdk-12\bin\caches\transforms-3\ae7ec84eac41d80167df28f5e3fc9ef3\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+57            android:directBootAware="true"
+57-->[androidx.room:room-runtime:2.2.5] C:\Program Files\Java\jdk-12\bin\caches\transforms-3\ae7ec84eac41d80167df28f5e3fc9ef3\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+58            android:exported="false" />
+58-->[androidx.room:room-runtime:2.2.5] C:\Program Files\Java\jdk-12\bin\caches\transforms-3\ae7ec84eac41d80167df28f5e3fc9ef3\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+59    </application>
+60
+61</manifest>

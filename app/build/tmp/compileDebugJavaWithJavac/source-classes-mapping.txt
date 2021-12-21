@@ -1,0 +1,13 @@
+com/iliptam/newproject/BuildConfig.java
+ com.iliptam.newproject.BuildConfig
+com/iliptam/newproject/MainActivity.java
+ com.iliptam.newproject.MainActivity
+ com.iliptam.newproject.MainActivity$1
+ com.iliptam.newproject.MainActivity$2
+ com.iliptam.newproject.MainActivity$3
+ com.iliptam.newproject.MainActivity$4
+com/iliptam/newproject/MainActivity2.java
+ com.iliptam.newproject.MainActivity2
+com/iliptam/newproject/DemoAdapter.java
+ com.iliptam.newproject.DemoAdapter
+ com.iliptam.newproject.DemoAdapter$MyHolder

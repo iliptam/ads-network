@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blueAccent">#2962FF</color>
+    <color name="primaryText">#212121</color>
+    <color name="progress">#ffff8800</color>
+    <color name="seconderyText">#757575</color>
+    <string name="close_button">Close</string>
+    <string name="header_image">Header Image</string>
+    <string name="interstitial_image">Interstitial Image</string>
+    <string name="price_format">Price: %s</string>
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#7E7E7E</item>
+        <item name="colorControlActivated">#FF9800</item>
+    </style>
+</resources>
